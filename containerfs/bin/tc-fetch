@@ -30,7 +30,7 @@ LATEST_RELEASE_TAG=$( \
     --filter=tree:0 \
     --depth 1 \
     -b $LATEST_RELEASE_TAG \
-    git://github.com/TrinityCore/TrinityCore.git \
+    https://github.com/TrinityCore/TrinityCore.git \
     /hostfs/tc-server/source
   exit 0
 }
